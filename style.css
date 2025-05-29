@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    max-width:100%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('primer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding: 25px 12%;
+    background-color: black;
+    color: white;
+    font-size:160%;
+}
+
+header > *{
+    display: inline-block;
+    width: 450px;
+    color: white;
+    font-family:"Anton";
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 8px;
+    color: white; 
+}
+
+.banner {
+    padding: 8% 5%;
+    color: #c91f1c;
+    font-size: 120px;
+    font-family:"Anton";
+}
+
+#bann{
+    font-size:60px;
+    padding:0px 5%;
+    font-family:"Montserrat";
+    color:#850b09;
+    font-weight:900;
+} 
+
+#maniobra{
+    padding:5px 60px;
+    text-align:center;
+    font-family:"Anton";
+    font-weight:900;
+    font-size:90px;
+    color:#c91f1c;
+    display: inline;
+    text-decoration:underline;
+}
+
+#Imagen1{
+    width:auto;
+    height:500px;
+    border:5px solid black;
+}
+#heimlich {
+    backgroun-color: white;
+    padding: 40px 40px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+#heimlich > *{
+    font-size: 45px;
+    font-weight:900;
+    font-family:"Montserrat";
+    vertical-align: middle;
+    display: inline-block;
+    width: 500px;
+    color: black;
+    padding:0px 125px;
+}
+#intrucciones1{
+    font-size: 39px;
+    font-weight:800;
+    font-family:"Cascadia+Mono";
+    display: inline-block;
+    color:black;
+    padding:10px 80px;
+    margin-bottom:50px;
+    background-color:white;
+    border-top:4px solid #c91f1c;
+    border-bottom:4px solid #c91f1c;
+    border-left:0;
+    border-right:0;
+}
+
+#rcp {
+    backgroun-color: white;
+    padding: 40px 40px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+#rcp > *{
+    font-size: 45px;
+    font-weight:900;
+    font-family:"Montserrat";
+    vertical-align: middle;
+    display: inline-block;
+    width: 500px;
+    color: black;
+    padding:0px 125px;
+}
+
+#info{
+    font-size:20px;
+    font-family:"Montserrat";
+    display:inline-block;
+    color:white;
+    padding: 25px 12%;
+    width:100%;
+    background-color: black;
+}
